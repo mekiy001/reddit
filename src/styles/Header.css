@@ -1,0 +1,15 @@
+.header {
+    grid-column: 1 / 4;
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr;
+    padding: 0 64px;
+}
+
+.flex {
+    display: flex;
+    justify-content: space-around;
+}
+
+.logo {
+    margin: auto 0;
+}
